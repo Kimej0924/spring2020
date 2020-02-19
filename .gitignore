@@ -1,0 +1,10 @@
+*.project
+*.lock
+*.class
+*.log
+.metadata/
+Servers/
+*.classpath
+*.springBeans
+.settings/
+target/
