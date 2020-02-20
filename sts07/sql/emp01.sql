@@ -9,7 +9,7 @@ CREATE TABLE emp01 (
   PRIMARY KEY (sabun),
   KEY emp01_fk_idx (deptno),
   CONSTRAINT emp01_fk FOREIGN KEY (deptno) REFERENCES dept01 (deptno) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 -- dummy
 INSERT INTO emp01 (`sabun`,`name`,`nalja`,`pay`,`deptno`) VALUES (1,'test1','2020-02-17 11:59:40',1000,1);
 INSERT INTO emp01 (`sabun`,`name`,`nalja`,`pay`,`deptno`) VALUES (2,'test2','2020-02-17 11:59:41',2000,3);
